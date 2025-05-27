@@ -1,4 +1,3 @@
-```md
 # Patient Management System
 
 A modern full-stack web application designed to streamline patient data handling for healthcare providers. Built with Next.js, TypeScript, and Tailwind CSS, the system allows efficient patient management with real-time SMS notifications via Twilio and backend services powered by Appwrite. The app also includes an admin panel with secure access and appointment control.
@@ -29,20 +28,19 @@ A modern full-stack web application designed to streamline patient data handling
 - Triggers **automated SMS notifications** to patients when actions are taken.
 
 ## 📦 Project Structure
+
 ```
-
-├── app/ # Application routes and pages
-├── components/ # Reusable UI components
-├── constants/ # Application constants
-├── lib/ # Utility libraries (e.g., Appwrite client, Twilio API)
-├── public/ # Static assets (icons, images)
-├── types/ # TypeScript types
-├── .env.local # Environment variables (not committed)
-├── next.config.mjs # Next.js configuration
-├── tailwind.config.ts # Tailwind configuration
-└── README.md # Project documentation
-
-````
+├── app/                 # Application routes and pages
+├── components/          # Reusable UI components
+├── constants/           # Application constants
+├── lib/                 # Utility libraries (e.g., Appwrite client, Twilio API)
+├── public/              # Static assets (icons, images)
+├── types/               # TypeScript types
+├── .env.local           # Environment variables (not committed)
+├── next.config.mjs      # Next.js configuration
+├── tailwind.config.ts   # Tailwind configuration
+└── README.md            # Project documentation
+```
 
 ## 🛠️ Getting Started
 
@@ -60,7 +58,7 @@ A modern full-stack web application designed to streamline patient data handling
 ```bash
 git clone https://github.com/hafiz229/patient-management-system.git
 cd patient-management-system
-````
+```
 
 2. **Install dependencies**
 
